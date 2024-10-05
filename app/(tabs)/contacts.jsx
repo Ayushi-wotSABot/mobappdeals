@@ -36,14 +36,17 @@ export default function Contacts() {
                                 className="w-[2.4vh] h-[2.4vh] -ml-8 "
                                 tintColor='white'
                             />
+                            <TouchableOpacity onPress={() => { router.push('/navigators/Contactform') }}>
 
-                            <Image
-                                source={icons.plus}
-                                resizeMode='contain'
-                                className="w-[2.1vh] h-[2.1vh]  ml-80 mr-2"
-                                tintColor='white'
 
-                            />
+                                <Image
+                                    source={icons.plus}
+                                    resizeMode='contain'
+                                    className="w-[2.1vh] h-[2.1vh]  ml-80 mr-2"
+                                    tintColor='white'
+
+                                />
+                            </TouchableOpacity>
 
                             <Image
                                 source={icons.dots}

@@ -20,7 +20,7 @@ export class divider extends Component {
                 >
                     <View className="flex-1 justify-center items-center">
 
-                        <Link href="/deals" style={{ color: "blue" }}>Deals </Link>
+                        <Link href="/deals" style={{ color: "blue", }} >Deals </Link>
                     </View>
                 </LinearGradient>
             </>
